@@ -7,7 +7,7 @@
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="manifest" href="site.webmanifest">
-		<link rel="shortcut icon" type="image/x-icon" href="assets/img/favicon.ico">
+        <link rel="shortcut icon" type="image/x-icon" href="assets/img/logo/PHYS_4A.png">
 
             <!-- CSS here -->
             <link rel="stylesheet" href="assets/css/bootstrap.min.css">
@@ -27,6 +27,11 @@
                     float:left;
                     margin-right: 20px;
                     margin-bottom: 1px;
+                }
+                
+                iframe {
+                    float:right;
+                    margin-right: 50px;
                 }
                 
             </style>
@@ -99,6 +104,8 @@
                         <h4 align="justified/right">
                             Deep Reinforcement Learning, otherwise known as (DRL), is a form of machine learning that combines the idea of reinforcement learning and deep learning onto Agents (AI) to perform good actions over bad in simulated environments; which provides awards based on actions taken via a Q-Network.
                         </h4>
+                        <h4><iframe width="400" height="300" src="https://www.youtube.com/embed/W2CAghUiofY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></h4>
+
                         <h4 align="justified/right">
                             Explaining this in a very simplified format can be as follows: 
                         </h4>
@@ -106,17 +113,16 @@
                             If the AI does something good by completing a task that the programmer wants it to do by itself it’s essentially rewarded a virtual “cookie” and the AI learns everything from the experience that it just had. HOWEVER, if the AI does something bad, the programmer punishes it by ensuring it does not repeat what it just did. With this idea in mind, the AI is then placed in a simulated environment where the task is replayed hundreds if not millions of times until the AI learns the absolute best actions possible to correctly complete its task. (AKA “deeply reinforcing” the correct way through trial and error to perform the task into the AI’s head) 
                         </h4>
                         <h4 align="justified/right">
-                            An example of DRL in action can be seen in this video where an AI was able to successfully finish the task of defeating all the “Space Invaders” in this video game without getting hit. Keep in mind this is all automated and no one is controlling this robot! <u><a href=”https://youtu.be/W2CAghUiofY”>https://youtu.be/W2CAghUiofY</u>
-                        </h4>
+                            An example of DRL in action can be seen in this video where an AI was able to successfully finish the task of defeating all the “Space Invaders” in this video game without getting hit. Keep in mind this is all automated and no one is controlling this robot!                         </h4>
                     </div>
                 </div>
             </div>
         </section>
 
-            <div class="container ">
-               <div class="row align-items-center">
+            <section class="container">
+               <div class="row">
                     <div class="col-lg-7 col-md-7">
-                                    <div class="testimonial-top-cap">
+                                    <div >
                                         <p>When looking at the following diagram it shows the feedback loop that the AI is receiving for its DRL. To begin, in RL an Agent (AI) learning a task is defined by states, actions, and rewards.</p>
                                         <p>States: are a representation of the current world or environment of the task.</p>
                                         <p>Actions: are something an RL Agent (AI) can do to change these states.</p>
@@ -125,13 +131,10 @@
                                     </div>
                     </div>
                     <div class="col-lg-5 col-md-5">
-                        <div class="testimonial-banner">
-                            <img src="assets/img/drl.png" class="testimonial-shape d-none d-lg-block" alt="">
-
-                        </div>
+                        <img src="assets/img/drl.png" >
                     </div>
                </div>
-            </div>
+            </section>
 
     </main>
     <footer>
